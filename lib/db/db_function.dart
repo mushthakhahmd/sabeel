@@ -637,7 +637,7 @@ Future<void> insertIntoTable() async {
         '(197,15, "Tha’ajeelul futhooh", "تعجيل الفتوح", "false", "assets/pdf/15 Thaajeelul futhooh.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(198,15, "Majlisunnoor", "مجلس النور", "false", "assets/pdf/15 Majlisunnoor.pdf")');
+        '(198,15, "Muhyudheen Mala", "محي الدين مال", "false", "assets/pdf/15 Muhyudheen Mala.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(199,15, "Al-Qaseedatul Qamriyya", "القصيدة الخمرية", "false", "assets/pdf/15 Al-Qaseedatul khamriyya.pdf")');
