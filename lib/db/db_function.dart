@@ -259,10 +259,10 @@ Future<void> insertIntoTable() async {
         '(72,12, "By Raising Hands towards the sky after Ablution", "بعد الوضوء مع رفع اليدين إلى السماء", "false", "assets/pdf/12 after Ablusion.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(73,12, "Congratulating the Bridegroom", "", "false", "assets/pdf/12 Congratulating the Bridegroom.pdf")');
+        '(73,12, "Congratulating the Bridegroom", "التهنئة للمتزوج", "false", "assets/pdf/12 Congratulating the Bridegroom.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(74,12, "Dua after the Two Rak’ah Sunnah Before the Sexual Intercourse", "", "false", "assets/pdf/12 Dua Before the Sexual Intercourse.pdf")');
+        '(74,12, "Dua after the Two Rak’ah Sunnah Before the Sexual Intercourse", "الدعاء بعد الركعتين قبل الجماع", "false", "assets/pdf/12 Dua Before the Sexual Intercourse.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(75,12, "Dua Before Dispersing the Gathering", "قبل المفارقة من المجالس", "false", "assets/pdf/12 Dua before Dispersing the Gathering.pdf")');
@@ -280,16 +280,16 @@ Future<void> insertIntoTable() async {
         '(79,12, "Dua after five prayers for easy completion of home", "الدعاء الذي يقرأ بعد كل صلاة لسهولة المنزل", "false", "assets/pdf/12 Dua to habituate after five times prayer of home.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(80,12, "During Ejaculation", "", "false", "assets/pdf/12 During Ejaculation.pdf")');
+        '(80,12, "During Ejaculation", "عند خروج المني من المجامعة", "false", "assets/pdf/12 During Ejaculation.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(81,12, "During one’s first meeting with his wife", "", "false", "assets/pdf/12 During ones first meeting with his wife.pdf")');
+        '(81,12, "During one’s first meeting with his wife", "ما يقول الزوج عند التقاء الزوجة أولا", "false", "assets/pdf/12 During ones first meeting with his wife.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(82,12, "During Pregnency", "عند الحمل", "false", "assets/pdf/12 During Pregnency.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(83,12, "During the Intercourse", "", "false", "assets/pdf/12 During the Intercourse.pdf")');
+        '(83,12, "During the Intercourse", "عند المجامعة", "false", "assets/pdf/12 During the Intercourse.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(84,12, "Especially after FajrAzaan", "بعد أذان الصبح خاصة", "false", "assets/pdf/12 Especially after Fajr Azaan.pdf")');
@@ -340,7 +340,7 @@ Future<void> insertIntoTable() async {
         '(99,12, "Nahs of Various Months", "أيام النحس المخصوصة بكل شهر", "false", "assets/pdf/12 Nahs of Various Months.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(100,12, "Nikah Khutuba", "", "false", "assets/pdf/12 Nikah Khutuba.pdf")');
+        '(100,12, "Nikah Khutuba", "خطبة النكاح", "false", "assets/pdf/12 Nikah Khutuba.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(101,12, "Niyyah While Teaching And Studying", "نية التعلم والتعليم", "false", "assets/pdf/12 Niyyah to Recite While Teaching.pdf")');
@@ -373,7 +373,7 @@ Future<void> insertIntoTable() async {
         '(110,12, "When Starting to Live in a New Home", "ما يقرأ في المنزل الجديد", "false", "assets/pdf/12 To Chant When Starting to Live in a New Home.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(111,12, "To Get Included among Good People", "", "false", "assets/pdf/12 To Get Included among Good People (At Fajr).pdf")');
+        '(111,12, "To Get Included among Good People", "لتكون في زمرة الصالحين", "false", "assets/pdf/12 To Get Included among Good People (At Fajr).pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(112,12, "To One Who Wears New Dress", "لـمن لبس الثوب الجديد", "false", "assets/pdf/12 To One Who Wears New Dress.pdf")');
@@ -406,7 +406,7 @@ Future<void> insertIntoTable() async {
         '(121,12, "When Getting angry", "عند الغضب", "false", "assets/pdf/12 When Getting angry.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(122,12, "When Going to Masjid", "", "false", "assets/pdf/12 When Going to Masjid.pdf")');
+        '(122,12, "When Going to Masjid", "عند الذهاب إلى المسجد", "false", "assets/pdf/12 When Going to Masjid.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(123,12, "When Hearing Azaan", "جواب الأذان", "false", "assets/pdf/12 When Hearing Azaan.pdf")');
@@ -460,7 +460,7 @@ Future<void> insertIntoTable() async {
         '(139,12, "While Facing Difficulties", "عند الكرب", "false", "assets/pdf/12 While Facing Difficulties.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(140,12, "While paying off the debt", "", "false", "assets/pdf/12 While paying off the debt.pdf")');
+        '(140,12, "While paying off the debt", "عند قضاء الدين", "false", "assets/pdf/12 While paying off the debt.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(141,12, "While Shaking Hands with Each other", "عند المصافحة", "false", "assets/pdf/12 While Shaking Hands.pdf")');
@@ -473,106 +473,106 @@ Future<void> insertIntoTable() async {
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(144,13, "Before the beginning of Dala’ilul Khairaat", "حزب يوم الاثنين ", "false","assets/pdf/13 Before the beginning of Dalailul Khairaat.pdf")');
+        '(144,13, "Before the beginning of Dala’ilul Khairaat", "حزب يوم الاثنين", "false","assets/pdf/13 Before the beginning of Dalailul Khairaat.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(145,13, "Names of prophet Muhammed (s)", "أسماء النبي (ص) ", "false","assets/pdf/13 Names of prophet Muhammed (s)_.pdf")');
+        '(145,13, "Names of prophet Muhammed (s)", "أسماء النبي (ص)", "false","assets/pdf/13 Names of prophet Muhammed (s)_.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(146,13, "1-Monday", "حزب يوم الاثنين ", "false","assets/pdf/13 _1-Monday.pdf")');
+        '(146,13, "1-Monday", "حزب يوم الاثنين", "false","assets/pdf/13 _1-Monday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(147,13, "2- Tuesday", "حزب يوم الثلاثاء ", "false","assets/pdf/13 _2- Tuesday.pdf")');
+        '(147,13, "2- Tuesday", "حزب يوم الثلاثاء", "false","assets/pdf/13 _2- Tuesday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(148,13, "3- Wednesday", " حزب يوم الأربعاء ", "false","assets/pdf/13 _3- Wednesday.pdf")');
+        '(148,13, "3- Wednesday", " حزب يوم الأربعاء", "false","assets/pdf/13 _3- Wednesday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(149,13, "4- Thursday", "حزب يوم الخميس ", "false","assets/pdf/13  _4 - Thursday.pdf")');
+        '(149,13, "4- Thursday", "حزب يوم الخميس", "false","assets/pdf/13  _4 - Thursday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(150,13, "5- Friday", "حزب  يوم الجمعة ", "false","assets/pdf/13 _5- Friday.pdf")');
+        '(150,13, "5- Friday", "حزب  يوم الجمعة", "false","assets/pdf/13 _5- Friday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(151,13, "6-Saturday", "حزب يوم السبت ", "false","assets/pdf/13 _6-Saturday.pdf")');
+        '(151,13, "6-Saturday", "حزب يوم السبت", "false","assets/pdf/13 _6-Saturday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(152,13, "7- Sunday", "حزب يوم الأحد ", "false","assets/pdf/13 _7- Sunday.pdf")');
+        '(152,13, "7- Sunday", "حزب يوم الأحد", "false","assets/pdf/13 _7- Sunday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(153,13, "Dua And Qaseeda After Dala’ilul Khairath", "الدعاء والأبيات بعد قراءة الدلائل ", "false","assets/pdf/13 Dua and Qaseeda after Dalailul Khairat.pdf")');
+        '(153,13, "Dua And Qaseeda After Dala’ilul Khairath", "الدعاء والأبيات بعد قراءة الدلائل", "false","assets/pdf/13 Dua and Qaseeda after Dalailul Khairat.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(154,13, "Swalath Of Imam Ibn Hajar", "صلاة الإمام ابن حجر ", "false","assets/pdf/13 The best form of Swalat as said by Imam Ibn Hajar Haithami.pdf")');
+        '(154,13, "Swalath Of Imam Ibn Hajar", "صلاة الإمام ابن حجر", "false","assets/pdf/13 The best form of Swalat as said by Imam Ibn Hajar Haithami.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(155,13, " Two Swalawat that necessitate the Shafaah", "", "false","assets/pdf/13 Two Swalawat that necessitate the Shafaah of the Holy Prophet.pdf")');
+        '(155,13, " Two Swalawat that necessitate the Shafaah", "الصلاة التي تحصل بها الشفاعة", "false","assets/pdf/13 Two Swalawat that necessitate the Shafaah of the Holy Prophet.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(156,13, "Swalath For Seeing Prophet Habeeb In Dream", "الصلاة التي تحصل بها رؤية الحبيب في المنام ", "false","assets/pdf/13 The Swalat, whoever recites it will see the holy prophet in dream.pdf")');
+        '(156,13, "Swalath For Seeing Prophet Habeeb In Dream", "الصلاة التي تحصل بها رؤية الحبيب في المنام", "false","assets/pdf/13 The Swalat, whoever recites it will see the holy prophet in dream.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(157,13, "Swalath That Facilitaties Fulfillment ", "الصلاة التي يحصل بها قضاء الحواج ", "false","assets/pdf/13 Swalath  fulfilled.pdf")');
+        '(157,13, "Swalath That Facilitaties Fulfillment ", "الصلاة التي يحصل بها قضاء الحواج", "false","assets/pdf/13 Swalath  fulfilled.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(158,13, "Two Swalath Of Imam Shafi", "صلاتان للإمام الشافعي ", "false","assets/pdf/13 Two Swalawat of Imam Shafiee.pdf")');
+        '(158,13, "Two Swalath Of Imam Shafi", "صلاتان للإمام الشافعي", "false","assets/pdf/13 Two Swalawat of Imam Shafiee.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(159,13, "Swalath Of Sheikh Abdul Khader Jeelani", "صلاة الشيخ عبد القادر الجيلاني ", "false","assets/pdf/13 Swalat of Sheikh Muhyidheen Abdul Qadir _Jeelani.pdf")');
+        '(159,13, "Swalath Of Sheikh Abdul Khader Jeelani", "صلاة الشيخ عبد القادر الجيلاني", "false","assets/pdf/13 Swalat of Sheikh Muhyidheen Abdul Qadir _Jeelani.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(160,13, "Swalath Of Sheikh Ahmad Al-Khabeer Arrifayi", "صلاة الشيخ أحمد الرفاعي ", "false","assets/pdf/13 Swalat of Sheikh Ahmadul Kabeer Arrifaii.pdf")');
+        '(160,13, "Swalath Of Sheikh Ahmad Al-Khabeer Arrifayi", "صلاة الشيخ أحمد الرفاعي", "false","assets/pdf/13 Swalat of Sheikh Ahmadul Kabeer Arrifaii.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(161,13, "Swalath Of Sheikh Ahmad Al-Badawi", "صلاة الشيخ أحمد البدوي ", "false","assets/pdf/13 Swalat of Sheikh Ahmad Al-Badawi.pdf")');
+        '(161,13, "Swalath Of Sheikh Ahmad Al-Badawi", "صلاة الشيخ أحمد البدوي", "false","assets/pdf/13 Swalat of Sheikh Ahmad Al-Badawi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(162,13, "Swalath Of Sheikh Ibrahim Al-Dasoqi", "صلاة الشيخ إبراهيم الدسوقي ", "false","assets/pdf/13 Swalat of Sheikh Ibrahim Al-Dasuqi.pdf")');
+        '(162,13, "Swalath Of Sheikh Ibrahim Al-Dasoqi", "صلاة الشيخ إبراهيم الدسوقي", "false","assets/pdf/13 Swalat of Sheikh Ibrahim Al-Dasuqi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(163,13, "Swalath Of Imam Qazzali", "صلاة الإمام الغزالي ", "false","assets/pdf/13 Swalat of Imam Gazzali.pdf")');
+        '(163,13, "Swalath Of Imam Qazzali", "صلاة الإمام الغزالي", "false","assets/pdf/13 Swalat of Imam Gazzali.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(164,13, "Swalath Of Sheikh Muhyudheen Ibn Arabi", "صلاة الشيخ محي الدين ابن عربي ", "false","assets/pdf/13 Swalat of Sheikh Muhyudheen Ibn Arabi.pdf")');
+        '(164,13, "Swalath Of Sheikh Muhyudheen Ibn Arabi", "صلاة الشيخ محي الدين ابن عربي", "false","assets/pdf/13 Swalat of Sheikh Muhyudheen Ibn Arabi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(165,13, "Swalath Of Sheikh Abdul Salam Bin Al-Masheeshi", "الصلاة المشيشية ", "false","assets/pdf/13 Swalat of Sheikh Abdul Salam Bin Al-Masheeshi.pdf")');
+        '(165,13, "Swalath Of Sheikh Abdul Salam Bin Al-Masheeshi", "الصلاة المشيشية", "false","assets/pdf/13 Swalat of Sheikh Abdul Salam Bin Al-Masheeshi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(166,13, "Swalath Of Sheikh Abi Hasan Al-Shaduli", "صلاة الشيخ أبي الحسن الشاذلي ", "false","assets/pdf/13 Swalat of Sheikh Abul Hasan Al-Shaduli.pdf")');
+        '(166,13, "Swalath Of Sheikh Abi Hasan Al-Shaduli", "صلاة الشيخ أبي الحسن الشاذلي", "false","assets/pdf/13 Swalat of Sheikh Abul Hasan Al-Shaduli.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(167,13, "Swalath Of Imam Navavi", "صلاة الإمام النووي ", "false","assets/pdf/13 Swalat of Imam Nawawi.pdf")');
+        '(167,13, "Swalath Of Imam Navavi", "صلاة الإمام النووي", "false","assets/pdf/13 Swalat of Imam Nawawi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(168,13, " Swalat of Sheikh Muhammedul Bakri", " ", "false","assets/pdf/13 Swalat of Sheikh Muhammedul Bakri.pdf")');
+        '(168,13, " Swalat of Sheikh Muhammedul Bakri", "صلاة الفاتح", "false","assets/pdf/13 Swalat of Sheikh Muhammedul Bakri.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(169,13, "Swalath-ul In’am", "صلاة الإنعام ", "false","assets/pdf/13 Swalat-ul Inam.pdf")');
+        '(169,13, "Swalath-ul In’am", "صلاة الإنعام", "false","assets/pdf/13 Swalat-ul Inam.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(170,13, "Swalath-ul Alil Qadr", "صلاة العالي القدر ", "false","assets/pdf/13 Swalat-ul Alil Qadr.pdf")');
+        '(170,13, "Swalath-ul Alil Qadr", "صلاة العالي القدر", "false","assets/pdf/13 Swalat-ul Alil Qadr.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(171,13, "Swalath-ul Kamaliya", "الصلاة الكمالية ", "false","assets/pdf/13 Swalat-ul Kamaliyya.pdf")');
+        '(171,13, "Swalath-ul Kamaliya", "الصلاة الكمالية", "false","assets/pdf/13 Swalat-ul Kamaliyya.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(172,13, "Swalath-ul Nariya", "الصلاة النارية ", "false","assets/pdf/13 Swalat-ul Nariya.pdf")');
+        '(172,13, "Swalath-ul Nariya", "الصلاة النارية", "false","assets/pdf/13 Swalat-ul Nariya.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(173,13, "Swalath-ul Munjiya", "الصلاة المنجية ", "false","assets/pdf/13 Swalat-ul Munjiya.pdf")');
+        '(173,13, "Swalath-ul Munjiya", "الصلاة المنجية", "false","assets/pdf/13 Swalat-ul Munjiya.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(174,13, "Swalath of Sheikh Aliyyul Hibshi", "صلاة الشيخ عليّ الحبشي ", "false","assets/pdf/13 Swalat of Al-Habeeb Aliyyul Muhammed Habshi.pdf")');
+        '(174,13, "Swalath of Sheikh Aliyyul Hibshi", "صلاة الشيخ عليّ الحبشي", "false","assets/pdf/13 Swalat of Al-Habeeb Aliyyul Muhammed Habshi.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(175,13, "Swalath of Imam Haddad", "صلاة الإمام الحداد ", "false","assets/pdf/13 Swalat of Imam Haddad.pdf")');
+        '(175,13, "Swalath of Imam Haddad", "صلاة الإمام الحداد", "false","assets/pdf/13 Swalat of Imam Haddad.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(176,13, "Swalath-ul Thaaj", "الصلاة التاج ", "false","assets/pdf/13 Swalat-ul Thaaj.pdf")');
+        '(176,13, "Swalath-ul Thaaj", "صلاة التاج", "false","assets/pdf/13 Swalat-ul Thaaj.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(177,13, "Swalath-ul Thwibb", "صلاة الطب ", "false","assets/pdf/13 Swalat-ul Twibb.pdf")');
+        '(177,13, "Swalath-ul Thwibb", "صلاة الطب", "false","assets/pdf/13 Swalat-ul Twibb.pdf")');
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
