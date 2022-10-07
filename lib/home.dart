@@ -326,7 +326,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Upon Wakeup &",
+                                            "Adkar of",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14.5,
                                                 color: Colors.black,
@@ -339,7 +339,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Tahajjud Adkar",
+                                            "Tahajjud",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1466,7 +1466,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Day of Muslim",
+                                            "Day of",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1479,7 +1479,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "(Sunnah)",
+                                            "Muslim",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1587,7 +1587,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Dalaelul Khairath",
+                                            "Dalael",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1603,7 +1603,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "and Swalath",
+                                            "& Swalath",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1843,7 +1843,7 @@ class _home_pageState extends State<home_page> {
                                                 MaterialPageRoute(
                                                     builder: (context) =>
                                                         const item_list_wakeup(
-                                                            cat_id: 15)));
+                                                            cat_id: 16)));
                                           },
                                           child: Container(
                                             height:
@@ -1951,7 +1951,7 @@ class _home_pageState extends State<home_page> {
                                                 MaterialPageRoute(
                                                     builder: (context) =>
                                                         const item_list_wakeup(
-                                                            cat_id: 15)));
+                                                            cat_id: 17)));
                                           },
                                           child: Container(
                                             height:
@@ -2054,7 +2054,7 @@ class _home_pageState extends State<home_page> {
                                                 MaterialPageRoute(
                                                     builder: (context) =>
                                                         const item_list_wakeup(
-                                                            cat_id: 15)));
+                                                            cat_id: 18)));
                                           },
                                           child: Container(
                                             height:
@@ -2473,12 +2473,12 @@ class _home_pageState extends State<home_page> {
               selectedColor: Colors.orange,
             ),
 
-            /// Profile
-            SalomonBottomBarItem(
-              icon: const Icon(Icons.person),
-              title: const Text("Profile"),
-              selectedColor: Colors.teal,
-            ),
+            // /// Profile
+            // SalomonBottomBarItem(
+            //   icon: const Icon(Icons.person),
+            //   title: const Text("Profile"),
+            //   selectedColor: Colors.teal,
+            // ),
           ],
         ),
       ),
