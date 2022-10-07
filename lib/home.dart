@@ -238,7 +238,7 @@ class _home_pageState extends State<home_page> {
                           child: Row(
                             children: [
                               Text(
-                                "Catagories",
+                                "Categories",
                                 style: GoogleFonts.roboto(
                                     fontSize: 20,
                                     color: const Color(0xff3F414E),
@@ -339,7 +339,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Tahajjud Adhkar",
+                                            "Tahajjud Adkar",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -424,7 +424,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Awrad of Fajr",
+                                            "Adkar of Fajr",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -501,7 +501,7 @@ class _home_pageState extends State<home_page> {
                                                 ),
                                                 Container(
                                                   child: Text(
-                                                    "أذكار بعدَ",
+                                                    "أذكار بعد",
                                                     style: GoogleFonts.cairo(
                                                         fontSize: 14.5,
                                                         color: Colors.black,
@@ -532,7 +532,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar After",
+                                            "Adkar After",
                                             style: GoogleFonts.blinker(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -639,7 +639,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar Dhuha",
+                                            "Adkar Dhuha",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -737,7 +737,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar Luhr",
+                                            "Adkar Luhr",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -835,7 +835,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar Asr",
+                                            "Adkar Asr",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -941,7 +941,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar Magrib",
+                                            "Adkar Magrib",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1144,7 +1144,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar Isha",
+                                            "Adkar Isha",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1254,7 +1254,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Adhkar Before",
+                                            "Adkar Before",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1360,7 +1360,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Azkar of",
+                                            "Adkar of",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1466,7 +1466,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            " Day of Muslim",
+                                            "Day of Muslim",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -1923,7 +1923,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Adhkar",
+                                            "Adkar",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -2013,7 +2013,7 @@ class _home_pageState extends State<home_page> {
                                       children: [
                                         Container(
                                           child: Text(
-                                            "Adhkar & Dua",
+                                            "Adkar & Dua",
                                             style: GoogleFonts.roboto(
                                                 fontSize: 14,
                                                 color: Colors.black,
@@ -2100,7 +2100,7 @@ class _home_pageState extends State<home_page> {
                                                 ),
                                                 Container(
                                                   child: Text(
-                                                    "للموتى",
+                                                    "للميت",
                                                     style: GoogleFonts.cairo(
                                                         fontSize: 14.5,
                                                         color: Colors.black,
