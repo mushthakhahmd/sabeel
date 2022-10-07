@@ -2517,9 +2517,6 @@ class _FavViewState extends State<FavView> {
               child: Container(
                 height: 36,
                 width: 36,
-                decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(30),
-                    color: Colors.white),
                 child: Padding(
                   padding: const EdgeInsets.only(left: 3),
                   child: IconButton(

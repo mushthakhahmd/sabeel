@@ -38,9 +38,6 @@ class _item_list_wakeupState extends State<item_list_wakeup> {
                 child: Container(
                   height: 36,
                   width: 36,
-                  decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(60),
-                      color: Colors.white),
                   child: Padding(
                     padding: const EdgeInsets.only(left: 3),
                     child: IconButton(
