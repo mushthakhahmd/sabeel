@@ -591,10 +591,10 @@ Future<void> insertIntoTable() async {
         '(182,14, "Badr Moulid", "مولد بدر", "false", "assets/pdf/14 Badr Moulid.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(183,14, "Amladul Gusnain moulid", "مولد أملد الغصنين مختصر مولد الحسنين", "false", "assets/pdf/14 Amladul Gusnain moulid.pdf")');
+        '(183,14, "Muhyidheen Moulid", "مولد محي الدين", "false", "assets/pdf/14 Muhyidheen Moulid.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(184,14, "Muhyidheen Moulid", "مولد محي الدين", "false", "assets/pdf/14 Muhyidheen Moulid.pdf")');
+        '(184,14, "Amladul Gusnain moulid", "مولد أملد الغصنين مختصر مولد الحسنين", "false", "assets/pdf/14 Amladul Gusnain moulid.pdf")');
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
