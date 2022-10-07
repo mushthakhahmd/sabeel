@@ -848,16 +848,16 @@ Future<void> insertIntoTable() async {
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-            '(266,18, "Two Rak’ahs For the Deceased", "صلاة الأنس", "false", "assets/pdf/.pdf")');
+            '(266,18, "Two Rak’ahs For the Deceased", "صلاة الأنس", "false", "assets/pdf/20 Two Rakahs For the Deceased.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-            '(267,18, "Azkar upon mayyith", "العتاقة الصغرى والعتاقة الكبرى", "false", "assets/pdf/.pdf")');
+            '(267,18, "Azkar upon mayyith", "العتاقة الصغرى والعتاقة الكبرى", "false", "assets/pdf/20 Azkar upon mayyith.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-            '(268,18, "Soil Chanted with Zikr on the Kafan Cloth", "وضع التربة في الكفن", "false", "assets/pdf/.pdf")');
+            '(268,18, "Soil Chanted with Zikr on the Kafan Cloth", "وضع التربة في الكفن", "false", "assets/pdf/20 Soil Chanted with Zikr on the Shroud (Kafan Cloth).pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-            '(269,18, "Janaza Prayer", "صلاة الجنازة", "false", "assets/pdf/20 Two Rakahs For the Deceased.pdf")');
+            '(269,18, "Janaza Prayer", "صلاة الجنازة", "false", "assets/pdf/20 Janaza Prayer.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
             '(270,18, "When Laying the Janaza in The Grave", "عند وضع الميت في القبر", "false", "assets/pdf/20 When Laying the Janaza in The Grave.pdf")');
