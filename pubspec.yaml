@@ -83,6 +83,7 @@ flutter:
     #  - logo.png
     #  - logo_foreground.png
     #  - cover.jpg
+     - cover.png
      - thahajjud.png
      - counter_icon.png
      - counter_home.png

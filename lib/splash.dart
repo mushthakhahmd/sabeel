@@ -22,17 +22,17 @@ class _splashState extends State<splash> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        // body:
+        body:
 
-        // Center(
-        //   child:
-        //   Container(
-        //     constraints: BoxConstraints.expand(),
-        //     decoration: BoxDecoration(
-        //         image: DecorationImage(
-        //             image: AssetImage("assets/cover.jpg"), fit: BoxFit.cover)),
-        //   ),
-        // ),
+        Center(
+          child:
+          Container(
+            constraints: BoxConstraints.expand(),
+            decoration: BoxDecoration(
+                image: DecorationImage(
+                    image: AssetImage("assets/cover.png"), fit: BoxFit.cover)),
+          ),
+        ),
 
         );
   }
