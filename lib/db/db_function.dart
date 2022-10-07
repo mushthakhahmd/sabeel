@@ -473,31 +473,31 @@ Future<void> insertIntoTable() async {
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(144,13, "Before the beginning of Dala’ilul Khairaat", "حزب يوم الاثنين", "false","assets/pdf/13 Before the beginning of Dalailul Khairaat.pdf")');
+        '(144,13, "Names of prophet Muhammed (s)", "أسماء النبي (ص)", "false","assets/pdf/13 Names of prophet Muhammed (s)_.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(145,13, "Names of prophet Muhammed (s)", "أسماء النبي (ص)", "false","assets/pdf/13 Names of prophet Muhammed (s)_.pdf")');
+        '(145,13, "Before the beginning of Dala’ilul Khairaat", "حزب يوم الاثنين", "false","assets/pdf/13 Before the beginning of Dalailul Khairaat.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(146,13, "1-Monday", "حزب يوم الاثنين", "false","assets/pdf/13 _1-Monday.pdf")');
+        '(146,13, "Monday", "حزب يوم الاثنين", "false","assets/pdf/13 _1-Monday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(147,13, "2- Tuesday", "حزب يوم الثلاثاء", "false","assets/pdf/13 _2- Tuesday.pdf")');
+        '(147,13, "Tuesday", "حزب يوم الثلاثاء", "false","assets/pdf/13 _2- Tuesday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(148,13, "3- Wednesday", " حزب يوم الأربعاء", "false","assets/pdf/13 _3- Wednesday.pdf")');
+        '(148,13, "Wednesday", " حزب يوم الأربعاء", "false","assets/pdf/13 _3- Wednesday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(149,13, "4- Thursday", "حزب يوم الخميس", "false","assets/pdf/13  _4 - Thursday.pdf")');
+        '(149,13, "Thursday", "حزب يوم الخميس", "false","assets/pdf/13  _4 - Thursday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(150,13, "5- Friday", "حزب  يوم الجمعة", "false","assets/pdf/13 _5- Friday.pdf")');
+        '(150,13, "Friday", "حزب  يوم الجمعة", "false","assets/pdf/13 _5- Friday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(151,13, "6-Saturday", "حزب يوم السبت", "false","assets/pdf/13 _6-Saturday.pdf")');
+        '(151,13, "Saturday", "حزب يوم السبت", "false","assets/pdf/13 _6-Saturday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(152,13, "7- Sunday", "حزب يوم الأحد", "false","assets/pdf/13 _7- Sunday.pdf")');
+        '(152,13, "Sunday", "حزب يوم الأحد", "false","assets/pdf/13 _7- Sunday.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(153,13, "Dua And Qaseeda After Dala’ilul Khairath", "الدعاء والأبيات بعد قراءة الدلائل", "false","assets/pdf/13 Dua and Qaseeda after Dalailul Khairat.pdf")');
@@ -576,10 +576,10 @@ Future<void> insertIntoTable() async {
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(178,14, "Salam Baith", "قصيدة السّلام عليك", "false", "assets/pdf/14 sharrafal anam moulid.pdf")');
+        '(178,14, "Salam Baith", "قصيدة السّلام عليك", "false", "assets/pdf/14 Salam Baith.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(179,14, "Sharrafal Anam Moulid", "مولد شرف الأنام", "false", "assets/pdf/04 Luha prayer.pdf")');
+        '(179,14, "Sharrafal Anam Moulid", "مولد شرف الأنام", "false", "assets/pdf/14 sharrafal anam moulid.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(180,14, "Manqoos Moulid", "المولد المنقوص", "false", "assets/pdf/14 Manqoos Moulid.pdf")');
