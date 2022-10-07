@@ -1,0 +1,349 @@
+name: sabeel
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.1 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^3.0.1
+  carousel_slider: ^4.1.1
+  salomon_bottom_bar: ^3.3.1
+  flutter_slider_drawer: ^2.1.1
+  easy_pdf_viewer: ^1.0.4
+  favorite_button: ^0.0.4
+  cupertino_icons: ^1.0.2
+  fluttertoast: ^8.0.9
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  sqflite: ^2.0.0
+  flutter_launcher_icons: ^0.10.0
+
+flutter_icons:
+   android: true
+   ios: true
+   image_path:
+      "assets/logo.png"
+   adaptive_icon_background: "#ffffff"
+   adaptive_icon_forground: "assets/logo_foreground.png"
+
+
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    #  - logo.png
+    #  - logo_foreground.png
+    #  - cover.jpg
+     - thahajjud.png
+     - counter_icon.png
+     - counter_home.png
+     - surah.png
+     - dhuha1.png
+     - dikr.png
+     - fajr1.png
+     - duhr.png
+     - asr1.png
+     - magrib1.png
+     - isha1.png
+     - jumua.png
+     - muslim.png
+     - bed.png
+     - moulid.png
+     - quran.png
+     - dalaelul.png
+     - spday.png
+     - hajj.png
+     - other.png
+     - mahlarath.png
+     - mayyith.jpg
+     - travel.png
+     - shape.png
+     - list.png
+     - flash.png
+     - name.png
+     - nale.gif
+     - assets/pdf/01 Azkar After the Tahajjud.pdf
+     - assets/pdf/01 Dua after wake up.pdf
+     - assets/pdf/01 Dua of Asma-ul-Husna.pdf
+     - assets/pdf/01 Qaseeda of Imam Haddad.pdf
+     - assets/pdf/01 Surah Al-Imran 190-200.pdf
+     - assets/pdf/01 Tahajjud prayer.pdf
+     - assets/pdf/01 Wird of Sheikh Abubakar.pdf
+     - assets/pdf/02 Dua-ul-Fajr.pdf
+     - assets/pdf/02 Gifting the reward of reciting Surah Fatiha.pdf
+     - assets/pdf/02 Ilaika Ya Rabbi.pdf
+     - assets/pdf/02 new Azkar between fajr its sunnah.pdf
+     - assets/pdf/02 Recite In Sunnah of Fajr.pdf
+     - assets/pdf/02 Salamat-ul-iman.pdf
+     - assets/pdf/02 Swalat-ul-Hulur.pdf
+     - assets/pdf/02 The sevens.pdf
+     - assets/pdf/02 Wird-ul-Imam Nawawi.pdf
+     - assets/pdf/02 Wird-ul-Latif.pdf
+     - assets/pdf/02 Zikr After Lying on Right Side.pdf
+     - assets/pdf/03 Azkar After Five Prayers.pdf
+     - assets/pdf/03 Surahs to be Recited Haddad Order.pdf
+     - assets/pdf/04 Luha prayer.pdf
+     - assets/pdf/04 Zikr and Dua after Luha.pdf
+     - assets/pdf/05 Dua After Sunnah of Luhr.pdf
+     - assets/pdf/05 Four Rakahs After Luhr.pdf
+     - assets/pdf/05 Four Rakahs Before Luhr.pdf
+     - assets/pdf/05 Hizb-al-Nasar of Imam Haddad.pdf
+     - assets/pdf/05 Hizb-al-Nasar of Imam Haddad.pdf
+     - assets/pdf/06 Azkar Before Magrib.pdf
+     - assets/pdf/06 Four Rakahs Before Asar Prayer.pdf
+     - assets/pdf/06 Hizb-ul-Bahar of Imam Shaduli.pdf
+     - assets/pdf/06 Sayyidul Istigfar in Morning and Evening.pdf
+     - assets/pdf/07 Aqeeda for  Faith.pdf
+     - assets/pdf/07 Awwabin Prayer.pdf
+     - assets/pdf/07 Janaza Prayer.pdf
+     - assets/pdf/07 Perform two rakahs Sunnah magrib.pdf
+     - assets/pdf/07 Saif-ul-Yamani Dua.pdf
+     - assets/pdf/08 Dua of Surah Al-Waqia.pdf
+     - assets/pdf/08 Dua of Surah Yasin.pdf
+     - assets/pdf/08 Surah Ad-Dukhan.pdf
+     - assets/pdf/08 Surah Al-Mulk.pdf
+     - assets/pdf/08 Surah Al-Sajda.pdf
+     - assets/pdf/08 Surah Al-Waqia.pdf
+     - assets/pdf/08 Surah Yasin.pdf
+     - assets/pdf/08 Three Ayath.pdf
+     - assets/pdf/09 after Isha Prayer & Dua.pdf
+     - assets/pdf/09 before Isha Prayer & Dua.pdf
+     - assets/pdf/09 Long Qunut.pdf
+     - assets/pdf/09 Ratib-ul-Attas.pdf
+     - assets/pdf/09 Ratib-ul-Haddad.pdf
+     - assets/pdf/09 Witr Prayer.pdf
+     - assets/pdf/09 Zikr & Dua After Witr Prayer.pdf
+     - assets/pdf/10 To Make a daily routine.pdf
+     - assets/pdf/10 Zikr & Ayahs Before Sleeping.pdf
+     - assets/pdf/11 100 Thasbeeh after Jumua.pdf
+     - assets/pdf/11 Awrad of Friday.pdf
+     - assets/pdf/11 Ilahi Nas aluka Baith.pdf
+     - assets/pdf/11 Qad Kafani Baith.pdf
+     - assets/pdf/11 Qaseeda For Strengthening Faith.pdf
+     - assets/pdf/11 Recite Seven Times After Jumua.pdf
+     - assets/pdf/11 Seventy Times  of Livelihood.pdf
+     - assets/pdf/11 Surah Al-kahf.pdf
+     - assets/pdf/11 Swalath After Friday Asar.pdf
+     - assets/pdf/11 To Get rid of Debt.pdf
+     - assets/pdf/12 after Ablusion.pdf
+     - assets/pdf/12 After Drinking.pdf
+     - assets/pdf/12 After Eating.pdf
+     - assets/pdf/12 After First Salam.pdf
+     - assets/pdf/12 After Second Salam.pdf
+     - assets/pdf/12 After Waking up.pdf
+     - assets/pdf/12 After Sneezing.pdf
+     - assets/pdf/12 After Washing.pdf
+     - assets/pdf/12 Baith at the End of Majlis.pdf
+     - assets/pdf/12 Before Wearing New..pdf
+     - assets/pdf/12 Congratulating the Bridegroom.pdf
+     - assets/pdf/12 Dua  Between Azaan And Iqamah.pdf
+     - assets/pdf/12 Dua before Dispersing the Gathering.pdf
+     - assets/pdf/12 Dua Before the Sexual Intercourse.pdf
+     - assets/pdf/12 Dua in the Begining of Class And in the Begining of Reading.pdf
+     - assets/pdf/12 Dua of Tawba Prayer.pdf
+     - assets/pdf/12 Dua to habituate after five times prayer of home.pdf
+     - assets/pdf/12 During Ejaculation.pdf
+     - assets/pdf/12 During ones first meeting with his wife.pdf
+     - assets/pdf/12 During Pregnency.pdf
+     - assets/pdf/12 During the Intercourse.pdf
+     - assets/pdf/12 Especially after Fajr Azaan.pdf
+     - assets/pdf/12 Especially after Magrib Azaan.pdf
+     - assets/pdf/12 Especially in Fajr Azaan.pdf
+     - assets/pdf/12 Form of Calling a Name of the Baby.pdf
+     - assets/pdf/12 Form of Calling Surah Fatiha in New Home.pdf
+     - assets/pdf/12 If Something Surprises you.pdf
+     - assets/pdf/12 If you Fall into a Ditch.pdf
+     - assets/pdf/12 If you Find it Difficult Debts.pdf
+     - assets/pdf/12 If you Find it Difficult to Reach your Goal.pdf
+     - assets/pdf/12 If You Hear Death of a Muslim.pdf
+     - assets/pdf/12 In Case of Disaster.pdf
+     - assets/pdf/12 In Iqamah.pdf
+     - assets/pdf/12 In the Beginning of any Good Thing.pdf
+     - assets/pdf/12 Istikharath Prayer and Dua.pdf
+     - assets/pdf/12 Nahs Days of Every Month.pdf
+     - assets/pdf/12 Nahs of Various Months.pdf
+     - assets/pdf/12 Nikah Khutuba.pdf
+     - assets/pdf/12 Niyyah to Recite While Teaching.pdf
+     - assets/pdf/12 Prophetic Dua for Healing.pdf
+     - assets/pdf/12 Some Ayahs to Cure Illness.pdf
+     - assets/pdf/12 Sujood-u-Thilawath.pdf
+     - assets/pdf/12 Tasbih Prayer.pdf
+     - assets/pdf/12 Tawba Prayer.pdf
+     - assets/pdf/12 Things to Do When a New Baby is Born.pdf
+     - assets/pdf/12 To Become Childbirth Easier.pdf
+     - assets/pdf/12 To Chant in Sujood-u-Shukr.pdf
+     - assets/pdf/12 To Chant When Starting to Live in a New Home.pdf
+     - assets/pdf/12 To Get Included among Good People (At Fajr).pdf
+     - assets/pdf/12 To One Who Wears New Dress.pdf
+     - assets/pdf/12 To see what you wished for Your Family.pdf
+     - assets/pdf/12 When Combing Beard.pdf
+     - assets/pdf/12 When Entering into Bathroom.pdf
+     - assets/pdf/12 When Entering into Home.pdf
+     - assets/pdf/12 When Entering Masjid.pdf
+     - assets/pdf/12 When Entering To an Unoccupied Place.pdf
+     - assets/pdf/12 When Facing Diffuculty with Vomiting.pdf
+     - assets/pdf/12 When Finishing from Azaan.pdf
+     - assets/pdf/12 When Getting angry.pdf
+     - assets/pdf/12 When Going to Masjid.pdf
+     - assets/pdf/12 When Hearing Azaan.pdf
+     - assets/pdf/12 When It Rains.pdf
+     - assets/pdf/12 When Leaving Home.pdf
+     - assets/pdf/12 When Looking at the Sky.pdf
+     - assets/pdf/12 When Looking into a Mirror.pdf
+     - assets/pdf/12 When Returning from Masjid.pdf
+     - assets/pdf/12 When Returning from Toilet.pdf
+     - assets/pdf/12 When Sighting the New Moon.pdf
+     - assets/pdf/12 When Undressing.pdf
+     - assets/pdf/12 When Using Perfume.pdf
+     - assets/pdf/12 When Visiting a Patient.pdf
+     - assets/pdf/12 When Wearing Dress.pdf
+     - assets/pdf/12 While Donating.pdf
+     - assets/pdf/12 While Drinking Milk.pdf
+     - assets/pdf/12 While Drinking Zamzam Water.pdf
+     - assets/pdf/12 While Entering Toilet.pdf
+     - assets/pdf/12 While Facing Difficulties.pdf
+     - assets/pdf/12 While paying off the debt.pdf
+     - assets/pdf/12 While Shaking Hands.pdf
+     - assets/pdf/12 While Thundering.pdf
+     - assets/pdf/12 While Yawning.pdf
+     - assets/pdf/13  _4 - Thursday.pdf
+     - assets/pdf/13 _1-Monday.pdf
+     - assets/pdf/13 _2- Tuesday.pdf
+     - assets/pdf/13 _3- Wednesday.pdf
+     - assets/pdf/13 _5- Friday.pdf
+     - assets/pdf/13 _6-Saturday.pdf
+     - assets/pdf/13 _7- Sunday.pdf
+     - assets/pdf/13 Another Swalat of Sheikh Abu Backer Bin Salim.pdf
+     - assets/pdf/13 Before the beginning of Dalailul Khairaat.pdf
+     - assets/pdf/13 Dua and Qaseeda after Dalailul Khairat.pdf
+     - assets/pdf/13 Names of prophet Muhammed (s)_.pdf
+     - assets/pdf/13 Some Forms of Swalat of Habeeb Umer Bin Hafeez.pdf
+     - assets/pdf/13 Swalat of Al-Habeeb Aliyyul Muhammed Habshi.pdf
+     - assets/pdf/13 Swalat of Imam Gazzali.pdf
+     - assets/pdf/13 Swalat of Imam Haddad.pdf
+     - assets/pdf/13 Swalat of Imam Nawawi.pdf
+     - assets/pdf/13 Swalat of Sheikh Abdul Salam Bin Al-Masheeshi.pdf
+     - assets/pdf/13 Swalat of Sheikh Abul Hasan Al-Shaduli.pdf
+     - assets/pdf/13 Swalat of Sheikh Ahmad Al-Badawi.pdf
+     - assets/pdf/13 Swalat of Sheikh Ahmadul Kabeer Arrifaii.pdf
+     - assets/pdf/13 Swalat of Sheikh Ibrahim Al-Dasuqi.pdf
+     - assets/pdf/13 Swalat of Sheikh Muhammedul Bakri.pdf
+     - assets/pdf/13 Swalat of Sheikh Muhyidheen Abdul Qadir _Jeelani.pdf
+     - assets/pdf/13 Swalat of Sheikh Muhyudheen Ibn Arabi.pdf
+     - assets/pdf/13 Swalath  fulfilled.pdf
+     - assets/pdf/13 Swalat-ul Alil Qadr.pdf
+     - assets/pdf/13 Swalat-ul Inam.pdf
+     - assets/pdf/13 Swalat-ul Kamaliyya.pdf
+     - assets/pdf/13 Swalat-ul Munjiya.pdf
+     - assets/pdf/13 Swalat-ul Nariya.pdf
+     - assets/pdf/13 Swalat-ul Thaaj.pdf
+     - assets/pdf/13 Swalat-ul Twibb.pdf
+     - assets/pdf/13 The best form of Swalat as said by Imam Ibn Hajar Haithami.pdf
+     - assets/pdf/13 The Swalat, whoever recites it will see the holy prophet in dream.pdf
+     - assets/pdf/13 Two Swalawat of Imam Shafiee.pdf
+     - assets/pdf/13 Two Swalawat that necessitate the Shafaah of the Holy Prophet.pdf
+     - assets/pdf/14 Amladul Gusnain moulid.pdf
+     - assets/pdf/14 Badr Moulid.pdf
+     - assets/pdf/14 Barzanji Moulid.pdf
+     - assets/pdf/14 Manqoos Moulid.pdf
+     - assets/pdf/14 Muhyidheen Moulid.pdf
+     - assets/pdf/14 Salam Baith.pdf
+     - assets/pdf/14 sharrafal anam moulid.pdf
+     - assets/pdf/15 Aaramba Poovaya Baith.pdf
+     - assets/pdf/15 Ajmeer Khwaja Madh.pdf
+     - assets/pdf/15 Al-Mahlaratul Badriyya.pdf
+     - assets/pdf/15 Al-Qaseedatul khamriyya.pdf
+     - assets/pdf/15 Al-Qutbiyya.pdf
+     - assets/pdf/15 C.M Waliyyullah Tawassul Baith.pdf
+     - assets/pdf/15 Majlisunnoor.pdf
+     - assets/pdf/15 Qaseeda Ahmadullahil Wali.pdf
+     - assets/pdf/15 Qaseeda Ajmeeriyya.pdf
+     - assets/pdf/15 Qaseeda of Sheikh Jifri Calicut.pdf
+     - assets/pdf/15 Qaseeda Swallal Ilah of Sheikh.pdf
+     - assets/pdf/15 Qaseeda Written on The Wall.pdf
+     - assets/pdf/15 Qaseedath-ul Muhammadiyya.pdf
+     - assets/pdf/15 Qaseedat-ul Burda of Imam Busweeri.pdf
+     - assets/pdf/15 Qaseedat-ul Mulariyya of Imam Busweeri.pdf
+     - assets/pdf/15 Qaseedat-ul Witriyya.pdf
+     - assets/pdf/15 Sayyidatuna Fatima Tawassul.pdf
+     - assets/pdf/15 Sayyidatuna Khadeeja Tawassul.pdf
+     - assets/pdf/15 Sayyidatuna Mariyam Tawassul.pdf
+     - assets/pdf/15 Thaajeelul futhooh.pdf
+
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+#  fonts:
+#    - family: MyFlutterApp
+#      fonts:
+#          - asset: assets/fonts/MyFlutterApp.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
