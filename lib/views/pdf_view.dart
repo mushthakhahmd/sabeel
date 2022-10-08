@@ -47,11 +47,9 @@ class _PdfViewPageState extends State<PdfViewPage> {
               : PDFViewer(
                   document: document,
                   lazyLoad: true,
-                 
                   zoomSteps: 1,
-                 
-                  showPicker: false,
-                  showNavigation: false,
+                  showPicker: true,
+                  showNavigation: true,
                 scrollDirection: Axis.vertical,
                 ),
         ),

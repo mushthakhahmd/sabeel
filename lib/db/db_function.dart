@@ -194,7 +194,7 @@ Future<void> insertIntoTable() async {
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(52,10, "Zikr & Ayahs Before Sleeping", "الأذكار والآيات قبل الظهر", "false", "assets/pdf/10 Zikr & Ayahs Before Sleeping.pdf")');
+        '(52,10, "Zikr & Ayahs Before Sleeping", "الأذكار والآيات قبل النوم", "false", "assets/pdf/10 Zikr & Ayahs Before Sleeping.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(53,10, "To Make a daily routine", "واظبوا كل يوم", "false", "assets/pdf/10 To Make a daily routine.pdf")');

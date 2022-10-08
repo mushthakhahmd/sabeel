@@ -77,36 +77,36 @@ class _home_pageState extends State<home_page> {
                       color: Color(0xff1D438A),
                     ),
                     title: Text(
-                      "Profile",
+                      "About Us",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
                   ),
-                  Divider(
-                    color: Colors.black26,
-                  ),
-                  ListTile(
-                    leading: Icon(
-                      Icons.category,
-                      color: Color(0xff1D438A),
-                    ),
-                    title: Text(
-                      "Category",
-                      style: TextStyle(fontWeight: FontWeight.w500),
-                    ),
-                  ),
-                  Divider(
-                    color: Colors.black26,
-                  ),
-                  ListTile(
-                    leading: Icon(
-                      Icons.assistant_navigation,
-                      color: Color(0xff1D438A),
-                    ),
-                    title: Text(
-                      "Qibla Finder",
-                      style: TextStyle(fontWeight: FontWeight.w500),
-                    ),
-                  ),
+                  // Divider(
+                  //   color: Colors.black26,
+                  // ),
+                  // ListTile(
+                  //   leading: Icon(
+                  //     Icons.category,
+                  //     color: Color(0xff1D438A),
+                  //   ),
+                  //   title: Text(
+                  //     "Category",
+                  //     style: TextStyle(fontWeight: FontWeight.w500),
+                  //   ),
+                  // ),
+                  // Divider(
+                  //   color: Colors.black26,
+                  // ),
+                  // ListTile(
+                  //   leading: Icon(
+                  //     Icons.assistant_navigation,
+                  //     color: Color(0xff1D438A),
+                  //   ),
+                  //   title: Text(
+                  //     "Qibla Finder",
+                  //     style: TextStyle(fontWeight: FontWeight.w500),
+                  //   ),
+                  // ),
                   Divider(
                     color: Colors.black26,
                   ),
@@ -2514,7 +2514,7 @@ class _FavViewState extends State<FavView> {
           children: [
             Padding(
               padding: const EdgeInsets.only(
-                right: 330,
+                right: 320,top: 20
               ),
               child: Container(
                 height: 36,
