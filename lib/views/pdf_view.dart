@@ -28,26 +28,33 @@ class _PdfViewPageState extends State<PdfViewPage> {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-          backgroundColor: Colors.white,
-          leading: IconButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              icon: const Icon(Icons.keyboard_arrow_left, color: Colors.black)),
-          title: Text(
-            widget.pageHeader,
-            style: const TextStyle(color: Colors.black),
-          )),
-      body: Center(
-        child: isLoading
-            ? const Center(child: CircularProgressIndicator())
-            : PDFViewer(
-                document: document,
-                lazyLoad: false,
-                zoomSteps: 1,
-              ),
+    return SafeArea(
+      child: Scaffold(
+        appBar: AppBar(
+            backgroundColor: Colors.white,
+            leading: IconButton(
+                onPressed: () {
+                  Navigator.of(context).pop();
+                },
+                icon: const Icon(Icons.keyboard_arrow_left, color: Colors.black)),
+            title: Text(
+              widget.pageHeader,
+              style: const TextStyle(color: Colors.black),
+            )),
+        body: Center(
+          child: isLoading
+              ? const Center(child: CircularProgressIndicator())
+              : PDFViewer(
+                  document: document,
+                  lazyLoad: true,
+                 
+                  zoomSteps: 1,
+                 
+                  showPicker: false,
+                  showNavigation: false,
+                scrollDirection: Axis.vertical,
+                ),
+        ),
       ),
     );
   }
