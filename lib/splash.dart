@@ -10,30 +10,54 @@ class splash extends StatefulWidget {
 }
 
 class _splashState extends State<splash> {
+  // @override
+  // void didChangeDependencies() {
+  //   super.didChangeDependencies();
+  //   loadAppConfiguration(context);
+  // }
+
   @override
   void initState() {
     super.initState();
+    loadAppConfiguration(context);
+
+  }
+
+
+  Future<void> loadAppConfiguration(BuildContext context) async {
+    WidgetsBinding.instance.addPostFrameCallback((_) async {
+    
+     
+          
     Timer(const Duration(seconds: 1), () {
-      Navigator.of(context).pushReplacement(MaterialPageRoute(
+       Navigator.of(context).pushReplacement(MaterialPageRoute(
           builder: (BuildContext context) => const home_page()));
+
+    })
+    
+    ;
+    
     });
   }
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-        body:
 
-        Center(
-          child:
+  
+    return SafeArea(
+      child: Scaffold(
+          body:
+
           Container(
-            constraints: BoxConstraints.expand(),
+          //    constraints: BoxConstraints.expand(),
+            width: double.infinity,
+            height: double.infinity,
             decoration: BoxDecoration(
                 image: DecorationImage(
                     image: AssetImage("assets/cover.png"), fit: BoxFit.cover)),
           ),
-        ),
 
-        );
+          ),
+    );
   }
 }
