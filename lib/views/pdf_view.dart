@@ -1,6 +1,7 @@
 import 'package:easy_pdf_viewer/easy_pdf_viewer.dart';
 import 'package:flutter/material.dart';
 
+
 class PdfViewPage extends StatefulWidget {
   final String pageHeader, path;
   const PdfViewPage({Key? key, required this.pageHeader, required this.path})
@@ -46,7 +47,7 @@ class _PdfViewPageState extends State<PdfViewPage> {
               ? const Center(child: CircularProgressIndicator())
               : PDFViewer(
                   document: document,
-                  lazyLoad: true,
+                  lazyLoad: false,
                   zoomSteps: 1,
                   showPicker: true,
                   showNavigation: true,
@@ -57,3 +58,5 @@ class _PdfViewPageState extends State<PdfViewPage> {
     );
   }
 }
+
+

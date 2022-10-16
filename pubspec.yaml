@@ -37,6 +37,7 @@ dependencies:
   favorite_button: ^0.0.4
   cupertino_icons: ^1.0.2
   fluttertoast: ^8.0.9
+  pdf_viewer_plugin: ^2.0.1
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -53,7 +54,7 @@ flutter_icons:
    android: true
    ios: true
    image_path:
-      "assets/logo/logo.jpg"
+      "assets/logo/logo.png"
    adaptive_icon_background: "#ffffff"
    adaptive_icon_forground: "assets/logo/logo.png"
 
@@ -80,9 +81,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    #  - logo.png
-    #  - logo_foreground.png
-    #  - cover.jpg
+     - logo.png
+     - logo_foreground.png
      - cover.png
      - thahajjud.png
      - counter_icon.png
@@ -138,7 +138,7 @@ flutter:
      - assets/pdf/05 Four Rakahs After Luhr.pdf
      - assets/pdf/05 Four Rakahs Before Luhr.pdf
      - assets/pdf/05 Hizb-al-Nasar of Imam Haddad.pdf
-     - assets/pdf/05 Hizb-al-Nasar of Imam shaduli.pdf
+     - assets/pdf/05 Hizb-al-Nasar of Imam Shaduli.pdf
      - assets/pdf/06 Azkar Before Magrib.pdf
      - assets/pdf/06 Four Rakahs Before Asar Prayer.pdf
      - assets/pdf/06 Hizb-ul-Bahar of Imam Shaduli.pdf

@@ -38,7 +38,7 @@ Future<void> insertIntoTable() async {
         ' (2,1, "Surah Al-Imran 190-200", "آخر آيات من آل عمران", "false", "assets/pdf/01 Surah Al-Imran 190-200.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(3,1, "Tahajjud Prayer", "صلاة التهجد", "false", "assets/pdf/01 Tahajjud prayer")');
+        '(3,1, "Tahajjud Prayer", "صلاة التهجد", "false", "assets/pdf/01 Tahajjud prayer.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
         '(4,1, "Dua of Asma-Ul-Husna", "دعاء أسماء الله الحسنى", "false", "assets/pdf/01 Dua of Asma-ul-Husna.pdf")');
@@ -143,7 +143,7 @@ Future<void> insertIntoTable() async {
         '(35,7, "Saif-ul-Yamâni Dua", "دعاء سيف اليماني", "false", "assets/pdf/07 Saif-ul-Yamani Dua.pdf")');
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'
-        '(36,7, "Aqeeda for Strengethining Your Faith", "عقيدة الإمام أبي بكر السكران", "false", "assets/pdf/07 Aqeeda for Faith.pdf")');
+        '(36,7, "Aqeeda for Strengethining Your Faith", "عقيدة الإمام أبي بكر السكران", "false", "assets/pdf/07 Aqeeda for  Faith.pdf")');
 
     await txn.rawInsert(
         'INSERT INTO Items(id,cat_id, title, subTitle,isFavorite, imgUrl) VALUES'

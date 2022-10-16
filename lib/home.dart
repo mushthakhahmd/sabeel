@@ -2,6 +2,7 @@ import 'package:favorite_button/favorite_button.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
+import 'package:sabeel/about_us.dart';
 import 'package:sabeel/constant.dart';
 import 'package:sabeel/counter.dart';
 import 'package:sabeel/db/db_function.dart';
@@ -52,9 +53,9 @@ class _home_pageState extends State<home_page> {
         child: Scaffold(
           backgroundColor: Colors.grey.shade200,
           drawer: Drawer(
-            child: SafeArea(
-              child: Column(
-                children: const [
+            child: Container(
+              child: ListView(
+                children: [
                   SizedBox(
                     height: 25,
                   ),
@@ -67,6 +68,12 @@ class _home_pageState extends State<home_page> {
                       "Home",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
+                    onTap: () {
+                      Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                              builder: (context) => const home_page()));
+                    }
                   ),
                   Divider(
                     color: Colors.black26,
@@ -80,6 +87,12 @@ class _home_pageState extends State<home_page> {
                       "About Us",
                       style: TextStyle(fontWeight: FontWeight.w500),
                     ),
+                        onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                                builder: (context) => const about_us()));
+                      }
                   ),
                   // Divider(
                   //   color: Colors.black26,
