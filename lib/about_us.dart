@@ -50,7 +50,7 @@ class _about_usState extends State<about_us> {
               Container(
                 padding: EdgeInsets.all(20),
                 child: Text(
-                    '                     This application named "Sebeelul Falah" in front of you is the result of two years of effort by the students of the Sadath Academy under the Madin Academy, which trains only AhluBayt progeny. Similarly, this app prepares you the path to success. It includes more than 300 items in 18 parts like Dhikrs, Duas, Aurads, Mawlids etc. that a Muslim needs in his life. You have in your hands English and Arabic version of this app which is different from others like Muslims One Day Favorite Button etc. Although it was released after several edits, it will indicate any errors that come to your attention.'
+                    '                     This application named "Sebeel_ul Falah" in front of you is the result of two years of effort by the students of the Sadath Academy under the Madin Academy, which trains only AhluBayt progeny. Similarly, this app prepares you the path to success. It includes more than 350 items in 18 parts like Dhikrs, Duas, Aurads, Mawlids etc. that a Muslim needs in his life. You have in your hands English and Arabic version of this app which is different from others like Muslims One Day Favorite Button etc. Although it was released after several edits, it will indicate any errors that come to your attention.'
                       , textAlign: TextAlign.justify,style: TextStyle(fontSize: 16,height: 1.5),  )
               ),
               Container(

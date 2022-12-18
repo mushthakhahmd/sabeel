@@ -342,7 +342,7 @@ class _home_pageState extends State<home_page> {
                                             child: Text(
                                               "Adkar of",
                                               style: GoogleFonts.roboto(
-                                                  fontSize: 14.5,
+                                                  fontSize: 14,
                                                   color: Colors.black,
                                                   fontWeight: FontWeight.w400),
                                             ),
@@ -419,7 +419,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أوراد الفجر",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -438,7 +438,7 @@ class _home_pageState extends State<home_page> {
                                         children: [
                                           Container(
                                             child: Text(
-                                              "Adkar of Fajr",
+                                              "Adkar of",
                                               style: GoogleFonts.roboto(
                                                   fontSize: 14,
                                                   color: Colors.black,
@@ -451,11 +451,11 @@ class _home_pageState extends State<home_page> {
                                         children: [
                                           Container(
                                             child: Text(
-                                              "  ",
+                                              "Fajr & Dhuha",
                                               style: GoogleFonts.roboto(
                                                   fontSize: 14,
                                                   color: Colors.black,
-                                                  fontWeight: FontWeight.w600),
+                                                  fontWeight: FontWeight.w400),
                                             ),
                                           ),
                                         ],
@@ -517,7 +517,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أذكار بعد",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -527,7 +527,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "الصلوات",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -590,109 +590,6 @@ class _home_pageState extends State<home_page> {
                                                   MaterialPageRoute(
                                                       builder: (context) =>
                                                           const item_list_wakeup(
-                                                              cat_id: 4)));
-                                            },
-                                            child: Container(
-                                              height:
-                                                  130, //MediaQuery.of(content).size.height,
-                                              width: 90,
-                                              decoration: const BoxDecoration(
-                                                image: DecorationImage(
-                                                  image: AssetImage(
-                                                      "assets/shape.png"),
-                                                  fit: BoxFit.cover,
-                                                ),
-                                              ),
-                                              child: Column(
-                                                mainAxisAlignment:
-                                                    MainAxisAlignment.center,
-                                                children: [
-                                                  const SizedBox(
-                                                    height: 20,
-                                                  ),
-                                                  Container(
-                                                    width: 32,
-                                                    height: 36,
-                                                    decoration:
-                                                        const BoxDecoration(
-                                                      image: DecorationImage(
-                                                        image: AssetImage(
-                                                            "assets/dhuha1.png"),
-                                                        fit: BoxFit.fitHeight,
-                                                      ),
-                                                    ),
-                                                  ),
-                                                  const SizedBox(
-                                                    height: 10,
-                                                  ),
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.only(
-                                                            right: 0),
-                                                    child: Container(
-                                                      child: Text(
-                                                        "أوراد الضحى",
-                                                        style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
-                                                            color: Colors.black,
-                                                            fontWeight:
-                                                                FontWeight.bold),
-                                                      ),
-                                                    ),
-                                                  )
-                                                ],
-                                              ),
-                                            ),
-                                          ),
-                                        ],
-                                      ),
-                                      const SizedBox(
-                                        height: 5,
-                                      ),
-                                      Row(
-                                        children: [
-                                          Container(
-                                            child: Text(
-                                              "Adkar Dhuha",
-                                              style: GoogleFonts.roboto(
-                                                  fontSize: 14,
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.w400),
-                                            ),
-                                          )
-                                        ],
-                                      ),
-                                      Row(
-                                        children: [
-                                          Container(
-                                            child: Text(
-                                              "  ",
-                                              style: GoogleFonts.blinker(
-                                                  fontSize: 14,
-                                                  color: Colors.black,
-                                                  fontWeight: FontWeight.w400),
-                                            ),
-                                          )
-                                        ],
-                                      )
-                                    ],
-                                  ),
-                                ]),
-                                const SizedBox(
-                                  width: 15,
-                                ),
-                                Row(children: [
-                                  Column(
-                                    children: [
-                                      Row(
-                                        children: [
-                                          GestureDetector(
-                                            onTap: () {
-                                              Navigator.push(
-                                                  context,
-                                                  MaterialPageRoute(
-                                                      builder: (context) =>
-                                                          const item_list_wakeup(
                                                               cat_id: 5)));
                                             },
                                             child: Container(
@@ -717,7 +614,7 @@ class _home_pageState extends State<home_page> {
                                                     width: 32,
                                                     height: 36,
                                                     decoration:
-                                                        const BoxDecoration(
+                                                    const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: AssetImage(
                                                             "assets/duhr.png"),
@@ -728,14 +625,19 @@ class _home_pageState extends State<home_page> {
                                                   const SizedBox(
                                                     height: 10,
                                                   ),
-                                                  Container(
-                                                    child: Text(
-                                                      "أوراد الظهر",
-                                                      style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
-                                                          color: Colors.black,
-                                                          fontWeight:
-                                                              FontWeight.bold),
+                                                  Padding(
+                                                    padding:
+                                                        const EdgeInsets.only(
+                                                            right: 0),
+                                                    child: Container(
+                                                      child: Text(
+                                                        "أوراد الظهر",
+                                                        style: GoogleFonts.cairo(
+                                                            fontSize: 14,
+                                                            color: Colors.black,
+                                                            fontWeight:
+                                                                FontWeight.bold),
+                                                      ),
                                                     ),
                                                   )
                                                 ],
@@ -768,7 +670,7 @@ class _home_pageState extends State<home_page> {
                                               style: GoogleFonts.blinker(
                                                   fontSize: 14,
                                                   color: Colors.black,
-                                                  fontWeight: FontWeight.bold),
+                                                  fontWeight: FontWeight.w400),
                                             ),
                                           )
                                         ],
@@ -830,7 +732,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أوراد العصر",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -862,7 +764,7 @@ class _home_pageState extends State<home_page> {
                                         children: [
                                           Container(
                                             child: Text(
-                                              "   ",
+                                              "  ",
                                               style: GoogleFonts.blinker(
                                                   fontSize: 14,
                                                   color: Colors.black,
@@ -874,12 +776,9 @@ class _home_pageState extends State<home_page> {
                                     ],
                                   ),
                                 ]),
-                              ]),
-
-                          ///2nd row
-                          Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              children: [
+                                const SizedBox(
+                                  width: 15,
+                                ),
                                 Row(children: [
                                   Column(
                                     children: [
@@ -925,23 +824,18 @@ class _home_pageState extends State<home_page> {
                                                     ),
                                                   ),
                                                   const SizedBox(
-                                                    height: 8,
+                                                    height: 10,
                                                   ),
-                                                  Padding(
-                                                    padding:
-                                                        const EdgeInsets.only(
-                                                            right: 0),
-                                                    child: Container(
-                                                      child: Text(
-                                                        "أوراد المغرب",
-                                                        style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
-                                                            color: Colors.black,
-                                                            fontWeight:
-                                                                FontWeight.bold),
-                                                      ),
+                                                  Container(
+                                                    child: Text(
+                                                      "أوراد المغرب",
+                                                      style: GoogleFonts.cairo(
+                                                          fontSize: 14,
+                                                          color: Colors.black,
+                                                          fontWeight:
+                                                              FontWeight.bold),
                                                     ),
-                                                  ),
+                                                  )
                                                 ],
                                               ),
                                             ),
@@ -969,10 +863,10 @@ class _home_pageState extends State<home_page> {
                                           Container(
                                             child: Text(
                                               "   ",
-                                              style: GoogleFonts.roboto(
-                                                  fontSize: 16,
+                                              style: GoogleFonts.blinker(
+                                                  fontSize: 14,
                                                   color: Colors.black,
-                                                  fontWeight: FontWeight.w400),
+                                                  fontWeight: FontWeight.bold),
                                             ),
                                           )
                                         ],
@@ -980,9 +874,14 @@ class _home_pageState extends State<home_page> {
                                     ],
                                   ),
                                 ]),
-                                const SizedBox(
-                                  width: 15,
-                                ),
+                              ]),
+
+
+
+                          ///2nd row
+                          Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              children: [
                                 Row(children: [
                                   Column(
                                     children: [
@@ -1010,7 +909,7 @@ class _home_pageState extends State<home_page> {
                                               ),
                                               child: Column(
                                                 mainAxisAlignment:
-                                                    MainAxisAlignment.center,
+                                                MainAxisAlignment.center,
                                                 children: [
                                                   const SizedBox(
                                                     height: 26,
@@ -1019,7 +918,7 @@ class _home_pageState extends State<home_page> {
                                                     width: 28,
                                                     height: 32,
                                                     decoration:
-                                                        const BoxDecoration(
+                                                    const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: AssetImage(
                                                             "assets/surah.png"),
@@ -1031,20 +930,20 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "السور لكل",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   ),
                                                   Container(
                                                     child: Text(
                                                       "يوم",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   )
                                                 ],
@@ -1118,13 +1017,12 @@ class _home_pageState extends State<home_page> {
                                                     MainAxisAlignment.center,
                                                 children: [
                                                   const SizedBox(
-                                                    height: 20,
-                                                  ),
+                                                    height: 20,                                                    ),
                                                   Container(
                                                     width: 32,
                                                     height: 36,
                                                     decoration:
-                                                        const BoxDecoration(
+                                                    const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: AssetImage(
                                                             "assets/isha1.png"),
@@ -1139,10 +1037,10 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أوراد العشاء",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   )
                                                 ],
@@ -1183,16 +1081,11 @@ class _home_pageState extends State<home_page> {
                                     ],
                                   ),
                                 ]),
-                              ]),
-
-                          //3rd row
-                          Row(
-                              mainAxisAlignment: MainAxisAlignment.center,
-                              crossAxisAlignment: CrossAxisAlignment.start,
-                              children: [
+                                const SizedBox(
+                                  width: 15,
+                                ),
                                 Row(children: [
                                   Column(
-                                    mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
                                       Row(
                                         children: [
@@ -1227,7 +1120,7 @@ class _home_pageState extends State<home_page> {
                                                     width: 32,
                                                     height: 36,
                                                     decoration:
-                                                        const BoxDecoration(
+                                                    const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: AssetImage(
                                                             "assets/bed.png"),
@@ -1239,20 +1132,20 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أذكار قبل",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   ),
                                                   Container(
                                                     child: Text(
                                                       "النوم",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   )
                                                 ],
@@ -1293,9 +1186,13 @@ class _home_pageState extends State<home_page> {
                                     ],
                                   ),
                                 ]),
-                                const SizedBox(
-                                  width: 15,
-                                ),
+                              ]),
+
+                          //3rd row
+                          Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.start,
+                              children: [
                                 Row(children: [
                                   Column(
                                     mainAxisAlignment: MainAxisAlignment.center,
@@ -1333,7 +1230,7 @@ class _home_pageState extends State<home_page> {
                                                     width: 32,
                                                     height: 36,
                                                     decoration:
-                                                        const BoxDecoration(
+                                                    const BoxDecoration(
                                                       image: DecorationImage(
                                                         image: AssetImage(
                                                             "assets/jumua.png"),
@@ -1345,20 +1242,20 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أذكار يوم",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   ),
                                                   Container(
                                                     child: Text(
                                                       "الجمعة",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
-                                                              FontWeight.bold),
+                                                          FontWeight.bold),
                                                     ),
                                                   )
                                                 ],
@@ -1388,6 +1285,112 @@ class _home_pageState extends State<home_page> {
                                           Container(
                                             child: Text(
                                               "Friday",
+                                              style: GoogleFonts.roboto(
+                                                  fontSize: 14,
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w400),
+                                            ),
+                                          )
+                                        ],
+                                      )
+                                    ],
+                                  ),
+                                ]),
+                                const SizedBox(
+                                  width: 15,
+                                ),
+                                Row(children: [
+                                  Column(
+                                    mainAxisAlignment: MainAxisAlignment.center,
+                                    children: [
+                                      Row(
+                                        children: [
+                                          GestureDetector(
+                                            onTap: () {
+                                              Navigator.push(
+                                                  context,
+                                                  MaterialPageRoute(
+                                                      builder: (context) =>
+                                                          const item_list_wakeup(
+                                                              cat_id: 19)));
+                                            },
+                                            child: Container(
+                                              height:
+                                                  130, //MediaQuery.of(content).size.height,
+                                              width: 90,
+                                              decoration: const BoxDecoration(
+                                                image: DecorationImage(
+                                                  image: AssetImage(
+                                                      "assets/shape.png"),
+                                                  fit: BoxFit.cover,
+                                                ),
+                                              ),
+                                              child: Column(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment.center,
+                                                children: [
+                                                  const SizedBox(
+                                                    height: 20,
+                                                  ),
+                                                  Container(
+                                                    width: 32,
+                                                    height: 36,
+                                                    decoration:
+                                                        const BoxDecoration(
+                                                      image: DecorationImage(
+                                                        image: AssetImage(
+                                                            "assets/hajj.png"),
+                                                        fit: BoxFit.fitHeight,
+                                                      ),
+                                                    ),
+                                                  ),
+                                                  Container(
+                                                    child: Text(
+                                                      "أذكار الحج",
+                                                      style: GoogleFonts.cairo(
+                                                          fontSize: 14,
+                                                          color: Colors.black,
+                                                          fontWeight:
+                                                              FontWeight.bold),
+                                                    ),
+                                                  ),
+                                                  Container(
+                                                    child: Text(
+                                                      "والعمرة",
+                                                      style: GoogleFonts.cairo(
+                                                          fontSize: 14,
+                                                          color: Colors.black,
+                                                          fontWeight:
+                                                              FontWeight.bold),
+                                                    ),
+                                                  )
+                                                ],
+                                              ),
+                                            ),
+                                          ),
+                                        ],
+                                      ),
+                                      const SizedBox(
+                                        height: 5,
+                                      ),
+                                      Row(
+                                        children: [
+                                          Container(
+                                            child: Text(
+                                              "Hajj &",
+                                              style: GoogleFonts.roboto(
+                                                  fontSize: 14,
+                                                  color: Colors.black,
+                                                  fontWeight: FontWeight.w400),
+                                            ),
+                                          )
+                                        ],
+                                      ),
+                                      Row(
+                                        children: [
+                                          Container(
+                                            child: Text(
+                                              "Umrah",
                                               style: GoogleFonts.roboto(
                                                   fontSize: 14,
                                                   color: Colors.black,
@@ -1451,7 +1454,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "يوم المسلم",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -1461,7 +1464,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "(سنة)",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -1566,7 +1569,7 @@ class _home_pageState extends State<home_page> {
                                                       child: Text(
                                                         "دلائل الخيرات",
                                                         style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
+                                                            fontSize: 14,
                                                             color: Colors.black,
                                                             fontWeight:
                                                                 FontWeight.bold),
@@ -1581,7 +1584,7 @@ class _home_pageState extends State<home_page> {
                                                       child: Text(
                                                         "والصلوات",
                                                         style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
+                                                            fontSize: 14,
                                                             color: Colors.black,
                                                             fontWeight:
                                                                 FontWeight.bold),
@@ -1688,7 +1691,7 @@ class _home_pageState extends State<home_page> {
                                                       child: Text(
                                                         "الموالد",
                                                         style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
+                                                            fontSize: 14,
                                                             color: Colors.black,
                                                             fontWeight:
                                                                 FontWeight.bold),
@@ -1792,7 +1795,7 @@ class _home_pageState extends State<home_page> {
                                                       child: Text(
                                                         "القصائد",
                                                         style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
+                                                            fontSize: 14,
                                                             color: Colors.black,
                                                             fontWeight:
                                                                 FontWeight.bold),
@@ -1895,7 +1898,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "أذكار الأيام",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -1905,7 +1908,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "الفاضلة",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -1926,7 +1929,7 @@ class _home_pageState extends State<home_page> {
                                             child: Text(
                                               "Special Days",
                                               style: GoogleFonts.roboto(
-                                                  fontSize: 16,
+                                                  fontSize: 14,
                                                   color: Colors.black,
                                                   fontWeight: FontWeight.w400),
                                             ),
@@ -2007,7 +2010,7 @@ class _home_pageState extends State<home_page> {
                                                       child: Text(
                                                         "أذكار السفر",
                                                         style: GoogleFonts.cairo(
-                                                            fontSize: 14.5,
+                                                            fontSize: 14,
                                                             color: Colors.black,
                                                             fontWeight:
                                                                 FontWeight.bold),
@@ -2106,7 +2109,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "ما ينفع",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
@@ -2116,7 +2119,7 @@ class _home_pageState extends State<home_page> {
                                                     child: Text(
                                                       "للميت",
                                                       style: GoogleFonts.cairo(
-                                                          fontSize: 14.5,
+                                                          fontSize: 14,
                                                           color: Colors.black,
                                                           fontWeight:
                                                               FontWeight.bold),
