@@ -1,9 +1,11 @@
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 import 'package:sabeel/constant.dart';
 import 'package:sabeel/db/db_function.dart';
 import 'package:sabeel/home.dart';
 import 'package:favorite_button/favorite_button.dart';
 import 'package:sabeel/model/item_model.dart';
+import 'package:sabeel/state/provider.dart';
 import 'package:sabeel/views/pdf_view.dart';
 
 class item_list_wakeup extends StatefulWidget {
@@ -24,15 +26,14 @@ class _item_list_wakeupState extends State<item_list_wakeup> {
 
   @override
   Widget build(BuildContext context) {
+    final languageProvider = Provider.of<LanguageProvider>(context);
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.grey.shade200,
         body: Column(
           children: [
             Padding(
-              padding: const EdgeInsets.only(
-                right: 320,top: 20
-              ),
+              padding: const EdgeInsets.only(right: 320, top: 20),
               child: Container(
                 height: 36,
                 width: 36,
@@ -89,9 +90,13 @@ class _item_list_wakeupState extends State<item_list_wakeup> {
                                 leading: SizedBox(
                                     height: 50.0,
                                     width: 50.0, // fixed width and height
-                                    child: Image.asset("list.png")),
+                                    child:
+                                        Image.asset("assets/other/list.png")),
                                 title: Text(
-                                  item.title,
+                                  languageProvider.currentLocale.languageCode ==
+                                          'en'
+                                      ? item.title
+                                      : item.malayalamTitle,
                                   style: const TextStyle(
                                       color: Colors.black, fontSize: 16),
                                 ),

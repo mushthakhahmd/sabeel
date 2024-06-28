@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:sabeel/db/db_function.dart';
 
@@ -28,7 +29,7 @@ Widget SpaceBar() {
               color: Colors.black45,
               size: 24,
             ),
-            hintText: "Search by Title",
+            hintText: 'search_by_title'.tr(),
             hintStyle: TextStyle(color: Colors.black45, fontSize: 18),
             border: InputBorder.none,
           ),

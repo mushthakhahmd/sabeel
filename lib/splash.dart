@@ -20,44 +20,31 @@ class _splashState extends State<splash> {
   void initState() {
     super.initState();
     loadAppConfiguration(context);
-
   }
-
 
   Future<void> loadAppConfiguration(BuildContext context) async {
     WidgetsBinding.instance.addPostFrameCallback((_) async {
-    
-     
-          
-    Timer(const Duration(seconds: 4), () {
-       Navigator.of(context).pushReplacement(MaterialPageRoute(
-          builder: (BuildContext context) => const home_page()));
-
-    })
-    
-    ;
-    
+      Timer(const Duration(seconds: 2), () {
+        Navigator.of(context).pushReplacement(MaterialPageRoute(
+            builder: (BuildContext context) => const home_page()));
+      });
     });
   }
 
   @override
   Widget build(BuildContext context) {
-
-  
     return SafeArea(
       child: Scaffold(
-          body:
-
-          Container(
+        body: Container(
           //    constraints: BoxConstraints.expand(),
-            width: double.infinity,
-            height: double.infinity,
-            decoration: BoxDecoration(
-                image: DecorationImage(
-                    image: AssetImage("assets/cover.png"), fit: BoxFit.cover)),
-          ),
-
-          ),
+          width: double.infinity,
+          height: double.infinity,
+          decoration: BoxDecoration(
+              image: DecorationImage(
+                  image: AssetImage("assets/other/cover.png"),
+                  fit: BoxFit.cover)),
+        ),
+      ),
     );
   }
 }

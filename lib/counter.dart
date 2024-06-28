@@ -1,3 +1,4 @@
+import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 
 class CounterView extends StatefulWidget {
@@ -37,7 +38,7 @@ class _counterState extends State<CounterView> {
           ),
         ),
         title: Text(
-          "Counter",
+          'counter'.tr(),
           style: TextStyle(color: Colors.black),
         ),
         elevation: .2,
@@ -46,19 +47,36 @@ class _counterState extends State<CounterView> {
         child: Stack(
           alignment: Alignment.center,
           children: [
-            Image.asset("assets/counter_home.png"),
+            Image.asset(
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.height * .66,
+              "assets/other/counter_new.png",
+              fit: BoxFit.cover,
+            ),
             Positioned(
               bottom: 280,
               //right: 0,
-              child: Text(
-                _counter.toString(),
-                textAlign: TextAlign.center,
-                textScaleFactor: 3.5,
+              child: Container(
+                height: 100,
+                width: MediaQuery.of(context).size.width * .7,
+                decoration: BoxDecoration(
+                    color: Colors.white,
+                    borderRadius: BorderRadius.circular(10)),
+                child: Center(
+                  child: Text(
+                    _counter.toString(),
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                        color: Colors.black,
+                        fontWeight: FontWeight.bold,
+                        fontSize: 30),
+                  ),
+                ),
               ),
             ),
             Positioned(
-              bottom: 190,
-              right: 50,
+              bottom: 200,
+              right: 80,
               child: InkWell(
                 onTap: () {
                   _counter = 0;
@@ -82,7 +100,7 @@ class _counterState extends State<CounterView> {
               ),
             ),
             Positioned(
-              bottom: 50,
+              bottom: 100,
               child: GestureDetector(
                 onTap: () {
                   _incrementCounter();
