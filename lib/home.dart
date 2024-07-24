@@ -85,17 +85,15 @@ class _home_pageState extends State<home_page> {
                             begin: Alignment.bottomCenter,
                             end: Alignment.topCenter)),
                   ),
-                  leading: Builder(
-                    builder: (context) => IconButton(
-                      icon: const Icon(
-                        Icons.view_headline_outlined,
-                        color: Color(0xff1D438A),
-                        size: 28,
-                      ),
-                      onPressed: () {
-                        Scaffold.of(context).openDrawer();
-                      },
+                  leading: IconButton(
+                    icon: const Icon(
+                      Icons.view_headline_outlined,
+                      color: Color(0xff1D438A),
+                      size: 28,
                     ),
+                    onPressed: () {
+                      Scaffold.of(context).openDrawer();
+                    },
                   ),
                   systemOverlayStyle: SystemUiOverlayStyle.light,
                   actions: [
@@ -2580,30 +2578,22 @@ class _FavViewState extends State<FavView> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.grey.shade200,
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          elevation: 0,
+          centerTitle: true,
+          leading: IconButton(
+            icon: const Icon(
+              Icons.view_headline_outlined,
+              color: Color(0xff1D438A),
+            ),
+            onPressed: () {
+              Scaffold.of(context).openDrawer();
+            },
+          ),
+        ),
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(right: 320, top: 20),
-              child: Container(
-                height: 36,
-                width: 36,
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 3),
-                  child: IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const home_page()));
-                      },
-                      icon: const Icon(
-                        Icons.arrow_back_ios,
-                        color: Color(0xff1D438A),
-                        size: 24,
-                      )),
-                ),
-              ),
-            ),
             const SizedBox(
               height: 20,
             ),

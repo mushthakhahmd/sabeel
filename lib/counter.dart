@@ -25,23 +25,20 @@ class _counterState extends State<CounterView> {
       appBar: AppBar(
         backgroundColor: Colors.white,
         centerTitle: true,
-        leading: Builder(
-          builder: (context) => IconButton(
-            icon: const Icon(
-              Icons.view_headline_outlined,
-              color: Color(0xff1D438A),
-              size: 28,
-            ),
-            onPressed: () {
-              Scaffold.of(context).openDrawer();
-            },
+        elevation: 0,
+        leading: IconButton(
+          icon: const Icon(
+            Icons.view_headline_outlined,
+            color: Color(0xff1D438A),
           ),
+          onPressed: () {
+            Scaffold.of(context).openDrawer();
+          },
         ),
         title: Text(
           'counter'.tr(),
           style: TextStyle(color: Colors.black),
         ),
-        elevation: .2,
       ),
       body: Center(
         child: Stack(

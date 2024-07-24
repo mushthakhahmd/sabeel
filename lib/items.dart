@@ -30,30 +30,21 @@ class _item_list_wakeupState extends State<item_list_wakeup> {
     return SafeArea(
       child: Scaffold(
         backgroundColor: Colors.grey.shade200,
+        appBar: AppBar(
+          backgroundColor: Colors.white,
+          elevation: 0,
+          leading: IconButton(
+            onPressed: () {
+              Navigator.pop(context);
+            },
+            icon: const Icon(
+              Icons.arrow_back_ios,
+              color: Color(0xff1D438A),
+            ),
+          ),
+        ),
         body: Column(
           children: [
-            Padding(
-              padding: const EdgeInsets.only(right: 320, top: 20),
-              child: Container(
-                height: 36,
-                width: 36,
-                child: Padding(
-                  padding: const EdgeInsets.only(left: 3),
-                  child: IconButton(
-                      onPressed: () {
-                        Navigator.push(
-                            context,
-                            MaterialPageRoute(
-                                builder: (context) => const home_page()));
-                      },
-                      icon: const Icon(
-                        Icons.arrow_back_ios,
-                        color: Color(0xff1D438A),
-                        size: 24,
-                      )),
-                ),
-              ),
-            ),
             const SizedBox(
               height: 20,
             ),
