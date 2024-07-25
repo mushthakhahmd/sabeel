@@ -14,7 +14,7 @@ class DrawarWidget extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final languageProvider = Provider.of<LanguageProvider>(context);
+    //final languageProvider = Provider.of<LanguageProvider>(context);
     return Drawer(
       child: Container(
         child: ListView(
@@ -81,19 +81,19 @@ class DrawarWidget extends StatelessWidget {
             //     style: TextStyle(fontWeight: FontWeight.w500),
             //   ),
             // ),
-            Divider(
-              color: Colors.black26,
-            ),
-            ListTile(
-              leading: Icon(
-                Icons.notifications_none,
-                color: Color(0xff1D438A),
-              ),
-              title: Text(
-                'notification'.tr(),
-                style: TextStyle(fontWeight: FontWeight.w500),
-              ),
-            ),
+            // Divider(
+            //   color: Colors.black26,
+            // ),
+            // ListTile(
+            //   leading: Icon(
+            //     Icons.notifications_none,
+            //     color: Color(0xff1D438A),
+            //   ),
+            //   title: Text(
+            //     'notification'.tr(),
+            //     style: TextStyle(fontWeight: FontWeight.w500),
+            //   ),
+            // ),
             Divider(
               color: Colors.black26,
             ),
