@@ -25,7 +25,7 @@ class home_page extends StatefulWidget {
 
 class _home_pageState extends State<home_page> {
   var _currentIndex = 0;
-
+  final GlobalKey<ScaffoldState> _key = GlobalKey();
   @override
   Widget build(BuildContext context) {
     final languageProvider = Provider.of<LanguageProvider>(context);
@@ -57,6 +57,7 @@ class _home_pageState extends State<home_page> {
       },
       child: SafeArea(
         child: Scaffold(
+          key: _key,
           backgroundColor: Colors.grey.shade200,
           drawer: DrawarWidget(),
           body: [
@@ -91,9 +92,7 @@ class _home_pageState extends State<home_page> {
                       color: Color(0xff1D438A),
                       size: 28,
                     ),
-                    onPressed: () {
-                      Scaffold.of(context).openDrawer();
-                    },
+                    onPressed: () => _key.currentState!.openDrawer(),
                   ),
                   systemOverlayStyle: SystemUiOverlayStyle.light,
                   actions: [
